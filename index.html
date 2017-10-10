@@ -136,6 +136,8 @@ function initMap() {
     });
     markerOne.addListener('click', function() {
 	  $('.infobox1').show();
+	  $('.infobox2').hide();
+	  $('.infobox3').hide();
 	});
     var markerTwo = new google.maps.Marker({
     	position: {lat: 48.857205, lng: 2.334774},
@@ -145,6 +147,8 @@ function initMap() {
     });
     markerTwo.addListener('click', function() {
 	  $('.infobox2').show();
+	  $('.infobox1').hide();
+	  $('.infobox3').hide();
 	});
     var markerThree = new google.maps.Marker({
     	position: {lat: 48.849016, lng: 2.352026},
@@ -154,6 +158,8 @@ function initMap() {
     });
     markerThree.addListener('click', function() {
 	  $('.infobox3').show();
+	  $('.infobox1').hide();
+	  $('.infobox2').hide();
 	});
 }
 
