@@ -163,10 +163,23 @@ function initMap() {
 	  $('.infobox1').hide();
 	  $('.infobox2').hide();
 	});
+//  Marker Hovers
 	google.maps.event.addListener(markerOne, 'mouseover', function() {
 	    markerOne.setIcon(imageHover);
 	});
 	google.maps.event.addListener(markerOne, 'mouseout', function() {
+	    markerOne.setIcon(image);
+	});
+	google.maps.event.addListener(markerTwo, 'mouseover', function() {
+	    markerOne.setIcon(imageHover);
+	});
+	google.maps.event.addListener(markerTwo, 'mouseout', function() {
+	    markerOne.setIcon(image);
+	});
+	google.maps.event.addListener(markerThree, 'mouseover', function() {
+	    markerOne.setIcon(imageHover);
+	});
+	google.maps.event.addListener(markerThree, 'mouseout', function() {
 	    markerOne.setIcon(image);
 	});
 }
