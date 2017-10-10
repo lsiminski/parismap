@@ -93,6 +93,9 @@ function initMap() {
     	url: '#popup1',
     	icon: image
     });
+    arrowMarker.addListener('click', function() {
+	  $('.test').show();
+	});
 /*
     arrowMarker.addListener('click', function(event) {
 	    event.preventDefault();
