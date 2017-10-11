@@ -21,7 +21,7 @@ div.infobox {
     -webkit-animation: slide 0.5s forwards;
     animation: slide 0.5s forwards;
     max-width: 600px;
-    min-height: 520px!important;
+    min-height: 460px!important;
 }
 @-webkit-keyframes slide {
     100% { left: 0; }
