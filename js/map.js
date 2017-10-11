@@ -5,6 +5,7 @@ function initMap() {
 		zoom: 14,
 		mapTypeId: 'hybrid',
 		scrollwheel: false,
+		disableDefaultUI: true,
 		styles: [
     {
         "featureType": "administrative.country",
