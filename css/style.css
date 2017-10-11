@@ -86,14 +86,6 @@ div.infobox {
   height: 2800px; 
   background: rgba(0,0,0,0.8);
 }
-#legendimg {
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 0;
-    height: 100vh;
-    width: 100vw;
-}
 div#logo {
     position: absolute;
     z-index: 9;
