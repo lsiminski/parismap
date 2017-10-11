@@ -127,7 +127,7 @@ div#map:after {
     width: 100%;
     z-index: 1;
 }
-div#map #marker {
+div#map #mapmarker {
     background: pink!important;
     z-index: 999999!important;
 }
