@@ -8,8 +8,8 @@
     <title>Paris Map</title>
     <link rel="shortcut icon" href="http://letsplaykoru.com/img/favicon.ico">
     
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="js/map.js"></script> 
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="map.js"></script> 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="https://use.fontawesome.com/7144d4b092.js"></script>
   </head>
@@ -53,12 +53,21 @@
 		  </div>
 	  </div>
 	  
+	<div id="invisible-overlay"></div>  
     <div id="map"></div>
     
     <script>
     // Click to close infobox
-	$(".close-icon a").click(function() {
-			$('.infobox').hide();	 
+	$(".close-icon a").click(function(event) {
+		event.preventDefault();
+		$('.infobox').hide();
+		$('#invisible-overlay').hide();		 
+	});
+	
+	$("#invisible-overlay").click(function(event) {
+		event.preventDefault();
+		$('.infobox').hide();
+		$('#invisible-overlay').hide();			 
 	});
     </script>
 
