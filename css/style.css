@@ -113,7 +113,7 @@ p {
     line-height: 22px;
 }
 .infobox {
-    background-image: url(img/water-mark-for-blade.png)!important;
+    background-image: url("../img/water-mark-for-blade.png")!important;
     background-repeat: no-repeat!important;
     background-position: bottom 20px right 20px!important;
     background-size: 62%!important;
