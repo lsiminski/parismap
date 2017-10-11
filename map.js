@@ -35,22 +35,22 @@ function initMap() {
 //  Marker click to open infobox
     markerOne.addListener('click', function(event) {
       event.preventDefault();
-      $('#invisible-overlay').show();
 	  $('.infobox1').show();
+	  $('#invisible-overlay').show();
 	  $('.infobox2').hide();
 	  $('.infobox3').hide();
 	});
 	markerTwo.addListener('click', function(event) {
 	  event.preventDefault();
-	  $('#invisible-overlay').show();
 	  $('.infobox2').show();
+	  $('#invisible-overlay').show();
 	  $('.infobox1').hide();
 	  $('.infobox3').hide();
 	});
 	markerThree.addListener('click', function(event) {
 	  event.preventDefault();
-	  $('#invisible-overlay').show();
 	  $('.infobox3').show();
+	  $('#invisible-overlay').show();
 	  $('.infobox1').hide();
 	  $('.infobox2').hide();
 	});
