@@ -81,9 +81,9 @@ function initMap() {
     "img/map-overlay.png"
   );
   Overlay.setMap(map);
-  Overlay.setOpacity(0.8);
+  Overlay.setOpacity(1);
   var legend = document.getElementById("legendimg");
-  legend.style.opacity = 0.8;
+  legend.style.opacity = 1;
 }
 
 // Marker Animation
