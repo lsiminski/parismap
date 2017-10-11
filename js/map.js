@@ -71,6 +71,17 @@ function initMap() {
 	google.maps.event.addListener(markerThree, 'mouseout', function() {
 	    markerThree.setIcon(image);
 	});
+	
+
+
+  Overlay = new google.maps.GroundOverlay(
+    "https://tccip.ncdr.nat.gov.tw/v2/past_map/T/2014_01_avg.png",
+    imageBounds
+  );
+  Overlay.setMap(map);
+  Overlay.setOpacity(0.8);
+  var legend = document.getElementById("legendimg");
+  legend.style.opacity = 0.8;
 }
 
 // Marker Animation
