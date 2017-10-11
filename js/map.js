@@ -74,7 +74,8 @@ function initMap() {
 	google.maps.event.addListener(markerThree, 'mouseout', function() {
 	    markerThree.setIcon(image);
 	});
-
+	
+}
 
 // Marker Animation
 function toggleBounce() {
