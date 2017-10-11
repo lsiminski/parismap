@@ -119,10 +119,10 @@ p {
     background-size: 62%!important;
 }
 #background-overlay {
-    background: rgba(0,0,0,0.8);
-    display: block;
     position: absolute;
-    height: 100%;
-    width: 100%;
+    top: 0;
+    right: 0;
     z-index: 0;
+    height: 100vh;
+    width: 100vw;
 }
