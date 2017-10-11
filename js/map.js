@@ -75,8 +75,7 @@ function initMap() {
 
 
   Overlay = new google.maps.GroundOverlay(
-    "https://tccip.ncdr.nat.gov.tw/v2/past_map/T/2014_01_avg.png",
-    imageBounds
+    "img/map-overlay.png"
   );
   Overlay.setMap(map);
   Overlay.setOpacity(0.8);
