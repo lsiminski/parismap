@@ -51,20 +51,22 @@
 		  </div>
 	  </div>
 	  
-
+    <div class="invisible-overlay"></div>
     <div id="map"></div>
-    <!-- <img id="legendimg" src="img/map-overlay.png"/> -->
+    <img id="legendimg" src="img/map-overlay.png"/>
     
     <script>
     // Click to close infobox
 	$(".close-icon a").click(function(event) {
 		event.preventDefault();
-		$('.infobox').hide(); 
+		$('.infobox').hide();
+		$('.invisible-overlay').hide();	 
 	});
 	
-	$("#map").click(function(event) {
+	$(".invisible-overlay").click(function(event) {
 		event.preventDefault();
-		$('.infobox').hide();	 
+		$('.infobox').hide();
+		$('.invisible-overlay').hide();	 
 	});
     </script>
 
