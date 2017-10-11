@@ -58,7 +58,14 @@
     // Click to close infobox
 	$(".close-icon a").click(function(event) {
 		event.preventDefault();
-		$('.infobox').hide();	 
+		$('.infobox').hide();
+		$('.invisible-overlay').hide();	 
+	});
+	
+	$(".invisible-overlay").click(function(event) {
+		event.preventDefault();
+		$('.infobox').hide();
+		$('.invisible-overlay').hide();	 
 	});
     </script>
 
