@@ -10,9 +10,9 @@ html, body {
 }
 div.infobox {
     position: absolute;
-    z-index: 3;
+    z-index: 10;
     background: #fff;
-    height: 75vh;
+    height: 100%;
     width: 100%;
     bottom: 0;
     background: rgba(250,250,250,0.9);
@@ -21,7 +21,7 @@ div.infobox {
     -webkit-animation: slide 0.5s forwards;
     animation: slide 0.5s forwards;
     max-width: 600px;
-    min-height: 460px!important;
+    max-height: 600px!important;
 }
 @-webkit-keyframes slide {
     100% { left: 0; }
