@@ -57,3 +57,10 @@ div.infobox {
 .close-icon a {
     color: #333;
 }
+.invisible-overlay {
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
