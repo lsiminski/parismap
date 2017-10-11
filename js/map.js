@@ -16,18 +16,21 @@ function initMap() {
     var markerOne = new google.maps.Marker({
     	position: {lat: 48.8626821, lng: 2.372197},
     	animation: google.maps.Animation.DROP,
+    	zIndex:99999999,
     	map: map,
     	icon: image
     });
     var markerTwo = new google.maps.Marker({
     	position: {lat: 48.857205, lng: 2.334774},
     	animation: google.maps.Animation.DROP,
+    	zIndex:99999999,
     	map: map,
     	icon: image
     });
     var markerThree = new google.maps.Marker({
     	position: {lat: 48.849016, lng: 2.352026},
     	animation: google.maps.Animation.DROP,
+    	zIndex:99999999,
     	map: map,
     	icon: image
     });

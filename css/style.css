@@ -86,7 +86,7 @@ div.infobox {
 }
 #legendimg {
 	position: absolute;
-	top: 50px; /*位移*/
-	right: 10px; /*位移*/
+	top: 0; /*位移*/
+	right: 0; /*位移*/
 	z-index:1;
 }
