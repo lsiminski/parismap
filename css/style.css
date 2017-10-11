@@ -1,0 +1,59 @@
+#map {
+	height: 100%;
+	z-index: 0;
+}
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+div.infobox {
+    position: absolute;
+    z-index: 2;
+    background: #fff;
+    height: 75vh;
+    width: 480px;
+    bottom: 0;
+    box-shadow: 4px 4px 12px rgba(0,0,0,0.3);
+    display: none;
+    left: -480px;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 0.2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 0.2s;
+}
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+@keyframes slide {
+    100% { left: 0; }
+}
+.content-container {
+	overflow: scroll;
+	height: 100%;
+	height: calc(100% - 50px);
+	padding: 0 30px;
+	border-top: 30px solid #fff;
+}
+.info-img {
+    width: 100%;
+    overflow: hidden;
+}
+.info-img img {
+    width: 100%;
+}
+.close-icon {
+    position: absolute;
+    top: 6px;
+    right: 8px;
+}
+.close-icon i:hover {
+    transform: rotate(90deg);
+}
+.close-icon i {
+    font-size: 18px;
+    transition: 0.2s ease;
+}
+.close-icon a {
+    color: #333;
+}
