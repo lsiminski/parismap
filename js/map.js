@@ -181,6 +181,14 @@ function initMap() {
 	google.maps.event.addListener(markerThree, 'mouseout', function() {
 	    markerThree.setIcon(image);
 	});
+
+  Overlay = new google.maps.GroundOverlay(
+    "img/map-overlay.png"
+  );
+  Overlay.setMap(map);
+  Overlay.setOpacity(1);
+  var legend = document.getElementById("legendimg");
+  legend.style.opacity = 1;
 }
 
 // Marker Animation
