@@ -73,15 +73,6 @@ function initMap() {
 	});
 }
 
-setTimeout(function () {
-    var overlayContainer = map.querySelector('.gm-style').firstChild.firstChild
-	    var overlay = document.createElement('div')
-	    overlay.id = 'overlay'
-	    overlayContainer.style.height = '100%'
-	    overlayContainer.insertBefore(overlay, overlayContainer.firstChild)
-	  }, 100)
-	}
-
 // Marker Animation
 function toggleBounce() {
   if (marker.getAnimation() !== null) {
