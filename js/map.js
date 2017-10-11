@@ -33,20 +33,17 @@ function initMap() {
     });
     
 //  Marker click to open infobox
-    markerOne.addListener('click', function(event) {
-      event.preventDefault();
+    markerOne.addListener('click', function() {
 	  $('.infobox1').show();
 	  $('.infobox2').hide();
 	  $('.infobox3').hide();
 	});
-	markerTwo.addListener('click', function(event) {
-	  event.preventDefault();
+	markerTwo.addListener('click', function() {
 	  $('.infobox2').show();
 	  $('.infobox1').hide();
 	  $('.infobox3').hide();
 	});
-	markerThree.addListener('click', function(event) {
-	  event.preventDefault();
+	markerThree.addListener('click', function() {
 	  $('.infobox3').show();
 	  $('.infobox1').hide();
 	  $('.infobox2').hide();
