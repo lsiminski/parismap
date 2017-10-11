@@ -71,6 +71,15 @@ function initMap() {
 	google.maps.event.addListener(markerThree, 'mouseout', function() {
 	    markerThree.setIcon(image);
 	});
+	
+	setTimeout(function () {
+    var overlayContainer = map.querySelector('.gm-style').firstChild.firstChild
+	    var overlay = document.createElement('div')
+	    overlay.id = 'overlay'
+	    overlayContainer.style.height = '100%'
+	    overlayContainer.insertBefore(overlay, overlayContainer.firstChild)
+	  }, 100)
+	}
 }
 
 // Marker Animation
