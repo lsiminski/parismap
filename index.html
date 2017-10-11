@@ -54,6 +54,13 @@
 	  </div>
 	  
     <div id="map"></div>
+    
+    <script>
+    // Click to close infobox
+	$(".close-icon a").click(function() {
+			$('.infobox').hide();	 
+	});
+    </script>
 
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoGaBD1LujALNb56eFhf71HXNkz1q1YUQ&callback=initMap"
     async defer></script>
