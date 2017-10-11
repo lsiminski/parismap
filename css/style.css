@@ -1,7 +1,7 @@
 #map {
     height: 100%;
     z-index: 1;
-/*     mix-blend-mode: multiply; */
+    mix-blend-mode: multiply;
 }
 html, body {
 	height: 100%;
@@ -118,16 +118,11 @@ p {
     background-position: bottom 20px right 20px!important;
     background-size: 62%!important;
 }
-div#map:after {
-    content: " ";
+#background-overlay {
     background: rgba(0,0,0,0.8);
     display: block;
     position: absolute;
     height: 100%;
     width: 100%;
-    z-index: 1;
-}
-#mapmarker {
-    background: pink!important;
-    z-index: 999999!important;
+    z-index: 0;
 }

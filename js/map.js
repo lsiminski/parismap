@@ -126,21 +126,18 @@ function initMap() {
     var markerOne = new google.maps.Marker({
     	position: {lat: 48.8626821, lng: 2.372197},
     	animation: google.maps.Animation.DROP,
-    	id: "mapmarker",
     	map: map,
     	icon: image
     });
     var markerTwo = new google.maps.Marker({
     	position: {lat: 48.857205, lng: 2.334774},
     	animation: google.maps.Animation.DROP,
-    	id: "mapmarker",
     	map: map,
     	icon: image
     });
     var markerThree = new google.maps.Marker({
     	position: {lat: 48.849016, lng: 2.352026},
     	animation: google.maps.Animation.DROP,
-    	id: "mapmarker",
     	map: map,
     	icon: image
     });
@@ -184,16 +181,6 @@ function initMap() {
 	google.maps.event.addListener(markerThree, 'mouseout', function() {
 	    markerThree.setIcon(image);
 	});
-
-/*
-  Overlay = new google.maps.GroundOverlay(
-    "img/map-overlay.png"
-  );
-  Overlay.setMap(map);
-  Overlay.setOpacity(1);
-  var legend = document.getElementById("legendimg");
-  legend.style.opacity = 1;
-*/
 }
 
 // Marker Animation
