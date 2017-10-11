@@ -185,6 +185,7 @@ function initMap() {
 	    markerThree.setIcon(image);
 	});
 
+/*
   Overlay = new google.maps.GroundOverlay(
     "img/map-overlay.png"
   );
@@ -192,6 +193,7 @@ function initMap() {
   Overlay.setOpacity(1);
   var legend = document.getElementById("legendimg");
   legend.style.opacity = 1;
+*/
 }
 
 // Marker Animation
