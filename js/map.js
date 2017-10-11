@@ -35,6 +35,10 @@ function initMap() {
     	icon: image
     });
     
+    var markerOne = document.getElementById("marker1");
+    var markerTwo = document.getElementById("marker2");
+    var markerThree = document.getElementById("marker3");
+    
 //  Marker click to open infobox
     markerOne.addListener('click', function() {
 	  $('.invisible-overlay').show();
