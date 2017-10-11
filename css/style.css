@@ -1,6 +1,7 @@
 #map {
-	height: 100%;
-	z-index: 0;
+    height: 100%;
+    z-index: 1;
+    mix-blend-mode: multiply;
 }
 html, body {
 	height: 100%;
