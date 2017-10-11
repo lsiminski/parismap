@@ -23,6 +23,7 @@ div.infobox {
     animation: slide 0.5s forwards;
     animation-delay: 0.2s;
     max-width: 600px;
+    min-height: 520px!important;
 }
 @-webkit-keyframes slide {
     100% { left: 0; }
@@ -98,6 +99,7 @@ div#logo {
     z-index: 9;
     max-width: 560px;
     width: 60vw;
+    min-width: 280px;
 }
 div#logo img {
     width: 100%;
